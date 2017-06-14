@@ -10,6 +10,15 @@ $(function(){
 	//载入回到顶部功能
 	var toTop=new ToTop('.fix');
 	
+	//点击logo功能
+	var logo=new GetSelector('#logo');
+	logo.clickLogo();
+	
+	//图片变化
+	var pic=new GetSelector('img');
+	pic.changeOpacity();
+	pic.toDetail();
+	
 	//
 	var slide=new Slide('.main_rt>dl');
 	slide.clickSlide();

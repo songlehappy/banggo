@@ -4,10 +4,7 @@ $(function(){
 	
 	var isLegal=new IsLegal('.main_l');
 	
-//	$.get('../../php/username.php',{
-//		'username':'wowowo'
-//	},function(responseText){
-//		console.log(responseText);
-//	},'json')
-//	console.log(1);
+	//点击logo功能
+	var logo=new GetSelector('#logo');
+	logo.clickLogo();
 })

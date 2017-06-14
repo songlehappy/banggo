@@ -6,6 +6,12 @@ $(function(){
 	var headLogin=new HeaderMove('.header_login','aSelect','.login')
 	var mineLogin=new HeaderMove('.header_mine','aSelect','.mine')
 	var downLoadLogin=new HeaderMove('.header_download','aSelect','.downLoad')
+	
+	//点击logo功能
+	var logo=new GetSelector('#logo');
+	logo.clickLogo();
+	
+	
 	//读取cookie
 	var cookie=new GiveValue('.main_m');
 	

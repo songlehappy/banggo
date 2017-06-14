@@ -170,6 +170,7 @@ header{
 }
 .logo_in img{
 	float:left;
+	cursor: pointer;
 }
 .logo_m{
 	float:left;

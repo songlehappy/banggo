@@ -12,7 +12,12 @@ GetSelector.prototype.isRed=function(){
 }
 //红色字体功能结束
 
-
+//点击logo
+GetSelector.prototype.clickLogo=function(){
+	$(this.ele).find(this.selector).click(function(){
+		window.open('../../index.html','_self');
+	})
+}
 
 //图像变化功能
 GetSelector.prototype.changeOpacity=function(){
@@ -30,6 +35,21 @@ GetSelector.prototype.changeOpacity=function(){
 }
 //图像变化功能结束
 
+GetSelector.prototype.toList=function(){
+	$(this.ele).find(this.selector).on({
+		'click':function(){
+			window.open('list/html/list.html','_self');
+		}
+	})
+}
+
+GetSelector.prototype.toDetail=function(){
+	$(this.ele).find(this.selector).on({
+		'click':function(){
+			window.open('../../details/html/detail.html','_self');
+		}
+	})
+}
 
 
 

@@ -9,12 +9,14 @@ $(function(){
 	var red=new GetSelector('.red');
 	red.isRed();
 	
-	//点击头部功能
-//	var click=new ClickHeader('.header_r');
+	//点击logo功能
+	var logo=new GetSelector('#logo');
+	logo.clickLogo();
 	
 	//页面图片功能
 	var pic=new GetSelector('img');
 	pic.changeOpacity();
+	pic.toList();
 	
 	//banner左半部分鼠标移入
 	var bannermouse=new BannerMove('.banner_l');

@@ -7,4 +7,8 @@ $(function(){
 	
 	//发送请求
 	var send=new SendCode('.main_m');
+	
+	//点击logo功能
+	var logo=new GetSelector('#logo');
+	logo.clickLogo();
 })

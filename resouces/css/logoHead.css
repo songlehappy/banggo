@@ -1,0 +1,25 @@
+/*登录注册相同部分的样式*/
+
+/*头部*/
+header{
+	height:100px;
+}
+
+.header_in{
+	width:980px;
+	margin:0 auto;
+}
+
+
+/*尾部*/
+footer{
+	height:39px;
+}
+.footer_in{
+	width:980px;
+	margin:0 auto;
+	text-align:center;
+	padding-top: 20px;
+	line-height: 19px;
+	font-size: 12px;
+}

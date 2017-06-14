@@ -1,0 +1,86 @@
+.figure_in,.footer_in{
+	width:1200px;
+	margin:0 auto;
+}
+
+/*以上为公共样式*/
+
+
+/*figure样式开始*/
+
+.figure_in{
+	overflow: hidden;
+	padding:55px 0 40px 0;
+}
+.figure_in>img{
+	float: left;
+	border:1px solid #ccc;
+	border-right: 0;
+}
+.figure_r{
+	float: left;
+	border:1px solid #ccc;
+}
+.figure_r dl{
+	float:left;
+	text-align: center;
+	padding:14px 0 8px 0;
+	border-top:1px solid #ccc;
+}
+.figure_r dl dt{
+	padding:0 39px 10px 40px;
+	border-right:1px solid #ccc;
+}
+.figure_r dl dd{
+	font-size:12px;
+	line-height: 16px;
+	color:#999;
+	font-weight: 600;
+	border-right:1px solid #ccc;
+	cursor: pointer;
+}
+.figure_r dl:last-child dt{
+	border:0;
+}
+.figure_r dl:last-child dd{
+	border:0;
+}
+/*figure样式结束*/
+
+
+/*footer样式开始*/
+footer{
+	height:324px;
+	background:url('../img/index/bg.png') repeat-x;
+}
+.footer_t{
+	padding:14px 0 20px 0;
+	overflow: hidden;
+}
+.footer_t dl{
+	float:left;
+	width:200px;
+}
+.footer_t dl dt{
+	padding-bottom:15px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.footer_t dl dd{
+	padding-top:13px;
+}
+
+.footer_b{
+	padding:20px 0 15px 0;
+	border-top:1px solid #999;
+	text-align: center;
+}
+.footer_b p{
+	font-size: 14px;
+	font-weight: 600;
+	color:#787878;
+}
+.footer_b>div img{
+	padding-top:15px;
+	display: inline-block;
+}

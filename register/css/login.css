@@ -1,0 +1,163 @@
+.main_in{
+	width:980px;
+	height:480px;
+	margin:0 auto;
+	padding-top:20px;
+	position: relative;
+}
+.main_r{
+	width:338px;
+	position: absolute;
+	left:640px;
+	top:25px;
+	border:1px solid #ccc;
+	border-top:0;
+}
+.main_r>ul{
+	width:338px;
+	height:36px;
+}
+.main_r>ul li{
+	float: left;
+	width:112px;
+	height:34px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 34px;
+	text-align: center;
+	border:1px solid #CCC;
+	position: absolute;
+	left:-1px;
+	top:0px;
+	cursor: pointer;
+}
+.main_r>ul li:nth-child(2){
+	left:112px;
+	top:0px;
+}
+.main_r>ul li:nth-child(3){
+	left:225px;
+	top:0px;
+}
+.main_r .select{
+	height:39px;
+	top:-5px!important;
+	border-top:2px solid red;
+	border-bottom: 0;
+}
+.main_m{
+	width:338px;
+	height:228px;
+	padding:30px 0 20px;
+}
+.main_m .txt{
+	width:80px;
+	height:28px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: right;
+	line-height: 28px;
+}
+.main_m .hint{
+	width:232px;
+	height:22px;
+	padding-left:81px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.main_m>input{
+	width:232px;
+	height:26px;
+	border:1px solid #CCC;
+	
+}
+.main_m .code{
+	width:60px;
+	text-align: center;
+	line-height: 26px;
+}
+.main_m .code1{
+	width:60px;
+	text-align: center;
+	line-height: 26px;
+}
+.main_m .code2{
+	cursor: pointer;
+}
+.main_m span{
+	display: inline-block;
+	margin:0 10px;
+	width:70px;
+	height:27px;
+	line-height: 28px;
+	background: white;
+}
+.main_m .btn{
+	line-height: 34px;
+	text-align: center;
+}
+.main_m .btn .login{
+	display: inline-block;
+	width:104px;
+	height: 34px;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 600;
+	color:white;
+	background: #f51a1a;
+	border-radius: 3px;
+}
+.main_b{
+	padding:0 18px 10px;
+	width:300px;
+}
+.main_b p:nth-child(1){
+	padding:15px 0;
+	height:27px;
+	line-height: 27px;
+    border-top: 1px solid #F1F1F1;
+}
+.main_b p:nth-child(1) a{
+	display: inline-block;
+	width:86px;
+	line-height: 25px;
+	text-align: center;
+	border:1px solid #ccc;
+	border-radius: 2px;
+	margin-left: 10px;
+	
+}
+.main_b p:nth-child(2){
+	padding:0 8px;
+	height:32px;
+	line-height: 32px;
+	background: #efefef;
+}
+.main_b ul{
+	overflow: hidden;
+}
+.main_b ul li{
+	float: left;
+	width:98px;
+	height: 30px;
+	border:1px solid #ccc;
+	text-align: center;
+	line-height: 30px;
+	background: url('../../resouces/img/register/icon_login.png') no-repeat 15px -5px;
+}
+.main_b ul li:nth-child(2){
+	background-position:5px -55px ;
+}
+.main_b ul li:nth-child(3){
+	background-position:5px -195px ;
+	width:88px;
+	padding-left: 10px;
+}
+.main_b ul li:nth-child(4){
+	background-position:15px -100px ;
+	width:93px;
+	padding-left: 5px;
+}
+.main_b ul li:nth-child(5){
+	background-position:5px -145px ;
+}

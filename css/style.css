@@ -1,0 +1,325 @@
+.banner_in,.aside_in,.main_in{
+	width:1200px;
+	margin:0 auto;
+}
+
+/*以上为公共样式*/
+
+
+
+/*banner样式开始*/
+.banner{
+	height:531px;
+}
+.banner_ll{
+	float:left;
+	padding-left:10px;
+	padding-bottom:7px;
+	width:224px;
+	border:1px solid #d51819;
+	border-top:0;
+}
+.banner_ll .list li{
+	padding-top:10px
+}
+.banner_ll .list dl dt{
+	line-height: 18px;
+	font-weight: 600;
+	color:#000;
+	position: relative;
+}
+.banner_ll .list dl dt i{
+	font-size: 12px;
+	color:#d51819;
+	position: absolute;
+	right:10px;
+	top:0px;
+}
+.banner_ll .list dl dd a{
+	line-height: 23px;
+	color:#696969;
+	display: inline-block;
+	padding-right:5px;
+}
+/*banner隐藏部分开始*/
+.banner_hide{
+	padding-right: 5px;
+	float:left;
+	display: block;
+}
+.hide{
+	overflow: hidden;
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+	display: none;
+}
+.hide_l{
+	float: left;
+	width:136px;
+	height:516px;
+	padding:14px 31px 0 14px;
+	border-right:1px solid #ccc;
+}
+.hide_l dl dt{
+	padding-bottom: 9px;
+	font-size:14px;
+	font-weight: 600;
+	line-height: 21px;
+}
+.hide_l dl dd{
+	padding-bottom: 8px;
+}
+.hide_l dl dd a{
+	display: inline-block;
+	font-size: 14px;
+	color:#999;
+	padding-right: 10px;
+	line-height: 20px;
+	font-family: "Microsoft YaHei";
+}
+.hide_r{
+	float: left;
+	width:540px;
+}
+.hide_rb{
+	padding:15px 13px 0;
+}
+.hide_rb p{
+	padding-bottom: 10px;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 20px;
+	
+}
+.hide_rb ul li{
+	width:120px;
+	height: 60px;
+	float:left;
+}
+.hide_r .sale li{
+	padding:10px 7px;
+	float: left;
+}
+.show{
+	display: block;
+}
+/*banner隐藏部分结束*/
+.banner_m{
+	float: left;
+	height:525px;
+	padding:5px 5px 1px;
+	position: relative;
+}
+.banner_m .bigPic{
+	position: relative;
+	width:718px;
+	height:475px;
+}
+.banner_m .bigPic li{
+	width:100%;
+	height:100%;
+	position: absolute;
+	left: 0;
+	top:0;
+	opacity: 0;
+	cursor: pointer;
+}
+.banner_m .bigPic .select{
+	opacity: 1;
+}
+.banner_m .bigPic li img{
+	width:100%;
+	height:100%;
+}
+.banner_m .smallFont{
+	height:48px;
+	width:716px;
+	position: absolute;
+	left:5px;
+	top:481px;
+	border:1px solid #dcdcdc;
+}
+.banner_m .smallFont li{
+	float: left;
+	width:119px;
+	font-size: 12px;
+	line-height: 48px;
+	font-weight: 600;
+	text-align: center;
+	color:#666;
+	position:relative;
+	top:-1px;
+	cursor: pointer;
+}
+.banner_m .smallFont .select{
+	border-top:3px solid #d51819; 
+}
+.banner_m .smallFont li::after{
+	content: '';
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 0;
+    height: 14px;
+    border-right: 1px solid #dcdcdc;
+}
+.banner_m .smallFont li:last-child::after{
+	content: none;
+}
+.banner_m .btn{
+	width:32px;
+	height:60px;
+	color:#fff;
+	background: #000;
+	line-height: 60px;
+	text-align: center;
+	position: absolute;
+	top:210px;
+	left:15px;
+	cursor: pointer;
+	opacity: 0.3;
+	display: none;
+}
+.banner_m .btn:hover{
+	opacity: 0.8;
+}
+.banner_m .toRight{
+	left:680px;
+}
+.banner_r{
+	float:left;
+}
+.banner_r_pic{
+	padding:5px 0px;
+}
+/*banner样式开始*/
+
+
+/*aside样式开始*/
+aside{
+	padding:5px 0;
+	
+}
+.aside_in{
+	height:120px;
+	position: relative;
+	overflow: hidden;
+}
+.aside_in ul{
+	position: absolute;
+	width:2410px;
+}
+.aside_in ul li{
+	float:left;
+	padding-right: 6px;
+	/*position: relative;*/
+}
+.aside_in .btn{
+	width:40px;
+	height:40px;
+	color:#000;
+	position: absolute;
+	left:2px;
+	top:40px;
+	opacity: 0.2;
+	cursor: pointer;
+}
+.aside_in .btn:hover{
+	opacity: 0.5;
+}
+.aside_in .btn i{
+	font-size: 40px;
+}
+.aside_in .toRight{
+	left:1158px;
+}
+/*aside样式结束*/
+
+
+/*section样式开始*/
+.boy_t{
+	height:60px;
+	background:url('../resouces/img/index/index_18.png') no-repeat;
+}
+.boy_tr{
+	float: right;
+	padding-top:30px;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+}
+.boy_tr a{
+	display: inline-block;
+	min-width:50px;
+	padding:0 15px;
+	color:#999;
+}
+.boy_tr span{
+	font-size: 15px;
+	line-height:24px;
+	color: #dcdcdc;
+}
+/*boy下半部分左边*/
+.boy_b{
+	overflow: hidden;
+}
+.boy_bl{
+	float: left;
+	width:240px;
+}
+.boy_bl .listFont{
+	height:115px;
+	background: #fafafa;
+}
+.boy_bl .listFont li{
+	float: left;
+	height:38px;
+	width:90px;
+	line-height: 38px;
+	padding-left: 18px;
+}
+.boy_bl .listFont li a{
+	float: left;
+	font-size: 14px;
+}
+.boy_bl .listPic li{
+	float: left;
+}
+/*boy下半部分右边*/
+.boy_br{
+	float: left;
+}
+.boyPic{
+	float: left;
+}
+.boy_br .listPic{
+	width:720px;
+	float: left;
+}
+.boy_br .listPic dt{
+	float: left;
+}
+.boy_br .listPic dd{
+	float: left;
+}
+/*类似部分改背景图*/
+.girl_t{
+	height:60px;
+	background:url('../resouces/img/index/index_19.png') no-repeat;
+}
+
+.fashion_t{
+	height:60px;
+	background:url('../resouces/img/index/index_20.jpg') no-repeat;
+}
+.sports_t{
+	height:60px;
+	background:url('../resouces/img/index/index_21.jpg') no-repeat;
+}
+.children_t{
+	height:60px;
+	background:url('../resouces/img/index/index_22.png') no-repeat;
+}
+/*section样式结束*/
+
+

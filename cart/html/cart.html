@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>cart</title>
+		<link rel="stylesheet" type="text/css" href="../../resouces/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../resouces/css/iconfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../../resouces/css/indexHead.css" />
+		<link rel="stylesheet" type="text/css" href="../css/cart.css" />
+		<link rel="stylesheet" type="text/css" href="../../resouces/css/indexFoot.css" />
+		<script type="text/javascript" src="../../resouces/js/jquery.js"></script>
+		<script type="text/javascript" src="../../resouces/js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="../../resouces/js/mouseMove.js"></script>
+		<script type="text/javascript" src="../js/cartcookie.js"></script>
+		<script type="text/javascript" src="../js/cart.js"></script>
+	</head>
+
+	<body>
+		<!--以下为header部分-->
+		<header>
+			<div class="header_in">
+				<div class="header_l">欢迎来到邦购网，全场满199元包邮</div>
+				<div class="header_r">
+					<div class="header_login">
+						<a class="selectLogin" href="../../register/html/login.html">登录</a>
+						<ul class="login">
+							<li>
+								<a href="#">QQ账号登录</a>
+							</li>
+							<li>
+								<a href="#">支付宝登录</a>
+							</li>
+							<li>
+								<a href="#">微信账户登录</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header_register">
+						<a href="../../register/html/register.html">注册</a>
+					</div>
+					<div class="header_mine">
+						<a class="selectMine" href="3">我的邦购<i class="iconfont">&#xe735;</i></a>
+						<ul class="mine">
+							<li>
+								<a href="#">我的订单</a>
+							</li>
+							<li>
+								<a href="#">我的积分</a>
+							</li>
+							<li>
+								<a href="#">我的点赞</a>
+							</li>
+							<li>
+								<a href="#">收货地址</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header_member">
+						<a href="#">会员中心</a>
+					</div>
+					<div class="header_download">
+						<a class="selectDownLoad" href="#"><i class="iconfont phone">&#xe606;</i>下载APP<i class="iconfont">&#xe735;</i></a>
+						<div class="downLoad">
+							<div></div>
+						</div>
+					</div>
+					<div class="header_blog">
+						<a href="#" title="新浪微博">微博</a>
+						<div class="bolg_r">
+							<a class="weixin" href="#">微信</a>
+							<img class="bolg" src="../../resouces/img/index/mbshop_pic_erweima.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!--以下为回到顶部功能html-->
+		<div class="fix">
+			<div class="top"></div>
+			<div class="btm"></div>
+		</div>
+
+		<!--以下为logo部分-->
+		<div class="logo">
+			<div class="logo_in">
+				<img src="../../resouces/img/index/logo.png" alt="">
+				<div class="logo_m">
+					<input type="text" placeholder="加勒比海盗系列首发">
+					<a class="search" href="#"><i class="iconfont">&#xe605;</i>搜索</a>
+					<ul class="list">
+						<li>
+							<a class="red" href="#">29.9包邮</a>
+						</li>
+						<li>
+							<a href="#">衬衫</a>
+						</li>
+						<li>
+							<a class="red" href="#">T恤</a>
+						</li>
+						<li>
+							<a href="#">休闲裤</a>
+						</li>
+						<li>
+							<a class="red" href="#">明星同款</a>
+						</li>
+						<li>
+							<a href="#">新品9折</a>
+						</li>
+					</ul>
+				</div>
+				<div class="logo_r">
+					<i class="iconfont">&#xe627;</i>
+					<a href="#">购物袋<span>0</span>件</a>
+				</div>
+			</div>
+		</div>
+
+		<!--以下为nav部分-->
+		<nav>
+			<div class="nav_in">
+				<ul class="list">
+					<li><i class="iconfont">&#xe7d5;</i>商品分类</li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<img src="../../resouces/img/index/mobilegai.gif" />
+			</div>
+		</nav>
+		
+		<!--以下为main部分-->
+		<div class="main">
+			<div class="main_in">
+				<h2>购物袋<a href="">领红包，享优惠 >></a></h2>
+				<ul class="main_t">
+					<li><i class="iconfont">&#xe664;</i>全选</li>
+					<li>商品信息</li>
+					<li>颜色尺码</li>
+					<li>单价(元)</li>
+					<li>数量</li>
+					<li>小计</li>
+					<li>操作</li>
+				</ul>
+				<div class="main_m">
+					<p>
+						<i class="iconfont">&#xe664;</i>
+						<b>邦购</b>
+						<strong>满199包邮</strong>
+					</p>
+					<ul class="element">
+						<li><i class="iconfont">&#xe664;</i></li>
+						<li>
+							<dl>
+								<dt><img src=""/></dt>
+								<dd>
+									<p><a href="#">冰淇淋亮片绣花T恤</a></p>
+									<i>商品编号：<span>A09163</span></i>
+									<b>不可用红包</b>
+									<b>该商品支持14天退换货</b>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<p>颜色：<span>云朵白</span></p>
+							<div>尺码：(<span>S</span>)</div>
+						</li>
+						<li>
+							<p>￥128</p>
+							<h4>￥39</h4>
+							<div>修改优惠</div>
+						</li>
+						<li>
+							<button class="minus">-</button>
+							<input type="text" />
+							<button class="plus">+</button>
+						</li>
+						<li>￥39</li>
+						<li>
+							<p>移入我的点赞</p>
+							<p>删除</p>
+						</li>
+					</ul>
+				</div>
+				<div class="main_b">
+					<i class="iconfont">&#xe664;</i>
+					<em>全选</em>
+					<b>删除选中商品</b>
+					<strong>清除失效商品</strong>
+					<a>去结算</a>
+					<div class="main_bm">
+						<p>已选商品<span>0</span>件</p>
+						<p>商品总价<b>￥0</b>- 优惠<em>￥0</em></p>
+						<p>合计(不含运费)：<strong>￥0</strong></p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!--以下为figure部分-->
+		<figure>
+			<div class="figure_in">
+				<img src="../../resouces/img/index/zyshare01.png" />
+				<img src="../../resouces/img/index/zyshare02.png" />
+				<img src="../../resouces/img/index/zyshare03.png" />
+				<div class="figure_r">
+					<img src="../../resouces/img/index/shanggd.jpg" />
+					<dl>
+						<dt><img src="../../resouces/img/index/indexonline.png"/></dt>
+						<dd>在线客服</dd>
+					</dl>
+					<dl>
+						<dt><img src="../../resouces/img/index/indexopinion.png"/></dt>
+						<dd>意见反馈</dd>
+					</dl>
+					<dl>
+						<dt><img src="../../resouces/img/index/indexsurvey.png"/></dt>
+						<dd>问卷调查</dd>
+					</dl>
+				</div>
+			</div>
+		</figure>
+
+		<!--以下为footer部分-->
+		<footer>
+			<div class="footer_in">
+				<div class="footer_t">
+					<dl>
+						<dt>新手指南</dt>
+						<dd>注册新用户</dd>
+						<dd>用户协议</dd>
+						<dd>找回密码</dd>
+					</dl>
+					<dl>
+						<dt>购物指南</dt>
+						<dd>红包使用说明</dd>
+						<dd>购物流程</dd>
+						<dd>订单状态</dd>
+						<dd>邦购币绑定与使用</dd>
+						<dd>积分说明</dd>
+					</dl>
+					<dl>
+						<dt>配送方式</dt>
+						<dd>配送范围</dd>
+						<dd>订单拆分</dd>
+						<dd>商品验货与签收</dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd>发票制度</dd>
+						<dd>支付方式</dd>
+					</dl>
+					<dl>
+						<dt>售后服务</dt>
+						<dd>退换货政策</dd>
+						<dd>退换办理流程</dd>
+						<dd>退款说明</dd>
+					</dl>
+					<dl>
+						<dt>联系方式</dt>
+						<dd>在线客服</dd>
+						<dd>商家入驻:<br />bgzs@metersbonwe.com</dd>
+					</dl>
+				</div>
+				<div class="footer_b">
+					<p>CopyRight © 2000-2017, 版权所有 上海美特斯邦威服饰股份有限公司 banggo.com 沪ICP备05033127号|沪B2-20150114 021-38119999</p>
+					<div>
+						<img src="../../resouces/img/index/lz_beian_h40.png" />
+						<img src="../../resouces/img/index/lz_shgs_h40.png" />
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>

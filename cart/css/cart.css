@@ -1,0 +1,208 @@
+.main_in{
+	width:1200px;
+	margin:0 auto;
+}
+
+b,strong,i,em{
+	font: 400 12px "微软雅黑","黑体","宋体",verdana;
+}
+/*以上为公共样式*/
+
+.main_in>h2{
+	padding:20px 0;
+	height: 42px;
+	font-size: 18px;
+	line-height: 42px;
+	
+}
+.main_in .iconfont{/*---------iconfont---------------*/
+	color:red;
+	display: inline-block;
+	width:12px;
+	height:12px;
+	font-size: 14px;
+	margin:0px 10px 0px 10px;
+	border:1px solid #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	
+}
+.main_in>h2 a{
+	float: right;
+	font-size: 12px;
+	font-weight: 100;
+	color:#f8584f;
+}
+.main_in>h2 a:hover{
+	color:#666;
+}
+
+.main_t{
+	overflow: hidden;
+	width:1200px;
+	margin-bottom: 20px;
+	background:#fafafa;
+}
+.main_t li{
+	float: left;
+	height:40px;
+	line-height: 40px;
+}
+.main_t li:nth-child(1){
+	width:126px;
+}
+/*.main_t li:nth-child(1) i{
+	display: inline-block;
+	
+}*/
+.main_t li:nth-child(2){
+	width:250px;
+}
+.main_t li:nth-child(3){
+	width:208px;
+}
+.main_t li:nth-child(4){
+	width:210px;
+}
+.main_t li:nth-child(5){
+	width:177px;
+}
+.main_t li:nth-child(6){
+	width:155px;
+}
+
+.main_m{
+	border:1px solid #999;
+	margin-bottom: 30px;
+}
+.main_m>p{/*---------------------邦购---------------*/
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	background: #fdf6ee;
+}
+.main_m>p strong{
+	float: right;
+	margin:10px 30px 0 0;
+}
+
+.element{/*===================购物车的一个商品=================*/
+	padding:20px 0;
+	overflow: hidden;
+	display: none;
+}
+.element li{
+	float: left;
+	line-height: 22px;
+}
+.element li:nth-child(2){
+	width: 300px;
+	
+}
+.element li dl dt{
+	width:78px;
+	height:78px;
+	border:1px solid #ccc;
+	float: left;
+	margin-right: 10px;
+}
+.element li dl dt img{
+	width:100%;
+	height: 100%;
+}
+.element li dl dd{
+	line-height: 22px;
+}
+.element li dl dd i{
+	display: inline-block;
+	width:200px;
+	color:#999;
+}
+.element li dl dd b{
+	display: inline-block;
+	color:#ccc;
+}
+.element li:nth-child(3){
+	width: 150px;
+	text-align: center;
+	line-height: 22px;
+}
+.element li:nth-child(4){
+	width:240px;
+	text-align: center;
+}
+.element li:nth-child(4) p{
+	text-decoration: line-through;
+	color: #ccc;
+}
+.element li:nth-child(5){
+	padding-left: 30px;
+	width:150px;
+	text-align: center;
+}
+.element li:nth-child(5) button{
+	width: 25px;
+	height:25px;
+	float: left;
+}
+.element li:nth-child(5) input{
+	width:40px;
+	height: 19px;
+	padding:2px 5px;
+	border:1px solid #ccc;
+	float: left;
+	text-align: center;
+	
+}
+.element li:nth-child(6){
+	width:150px;
+	text-align: center;
+	font-size: 14px;
+	color:red;
+	font-weight: 600;
+}
+.element li:nth-child(6){
+	
+}
+.element li:nth-child(7){
+	width:120px;
+	text-align: right;
+}
+
+/*-----------------------------------------------*/
+.main_b{
+	background: #fafafa;
+}
+.main_b em,.main_b b,.main_b strong{
+	line-height: 60px;
+	margin-right: 10px;
+	font-size: 14px;
+} 
+.main_bm{
+	float: right;
+	overflow: hidden;
+}
+.main_bm p{
+	float: left;
+	line-height: 60px;
+	margin-right: 20px;
+	font-size: 14px;
+}
+.main_bm p span,.main_bm p strong{
+	font-size: 18px;
+	color:red;
+	font-weight: 600;
+	padding:0 5px;
+}
+.main_b a{
+	float: right;
+	width:144px;
+	height: 60px;
+	background: red;
+	font-size: 26px;
+	line-height: 60px;
+	text-align: center;
+	font-weight: 600;
+	color:#fff;
+	cursor: pointer;
+}

@@ -46,7 +46,7 @@ GiveValue.prototype.buttonChange = function() {
 	var oSelf = this;
 	oSelf.num = $(oSelf.elemen).find('li:nth-child(5) input').val(); //-----------------------oSelf.num---------------
 	//	console.log(oSelf.num);
-	$(oSelf.ele).find('.element .minus').on({
+	$(oSelf.elemen).find('.minus').on({
 		'click': function() {
 			oSelf.num--;
 			if(oSelf.num < 1) {
@@ -58,7 +58,7 @@ GiveValue.prototype.buttonChange = function() {
 			oSelf.iconfontChange();
 		}
 	});
-	$(oSelf.ele).find('.element .plus').on({
+	$(oSelf.elemen).find('.plus').on({
 		'click': function() {
 			oSelf.num++;
 			$(oSelf.elemen).find('li:nth-child(5) input').val(oSelf.num);
@@ -68,6 +68,15 @@ GiveValue.prototype.buttonChange = function() {
 
 		}
 	});
+	
+	$(oSelf.elemen).find('li:nth-child(5) input').on({
+		'blur':function(){
+			//计算价格
+			oSelf.num=$(this).val();
+			oSelf.priceChange();
+			oSelf.iconfontChange();
+		}
+	})
 }
 
 //价格变化

@@ -10,13 +10,16 @@ function GiveValue(selector) {
 GiveValue.prototype.getData = function() {
 	var oSelf = this;
 	var that = $(oSelf.ele).find('.element');
+	oSelf.arr = JSON.parse($.cookie('cart'));
+//	console.log(oSelf.arr);
+	
 	//克隆模板并加到main_m后
 	if($.cookie('cart')) {
 		oSelf.elemen = that.clone(true).appendTo(oSelf.ele).css('display', 'block');
 
 		//	console.log(that.size());
-
-		oSelf.arr = JSON.parse($.cookie('cart'));
+//		oSelf.arr = JSON.parse($.cookie('cart'));
+		
 		//图片
 		$(oSelf.elemen).find('li:nth-child(2) dt img').attr('src', oSelf.arr[0]);
 		//衣服名字
@@ -37,7 +40,29 @@ GiveValue.prototype.getData = function() {
 		//加减按钮变化
 		oSelf.buttonChange();
 		oSelf.iconfontChange();
+	}else{
+		$(oSelf.ele).css('display','none').siblings().css('display','none');
+		$('<div class="nothing">还没有东西哦，赶紧<span>购买</span></div>').appendTo($(oSelf.ele).parents('.main_in'));
+		$('body,html').find('.main_in .nothing span').on({
+			'click':function(){
+				window.open('../../list/html/list.html','_self');
+			}
+		})
 	}
+	
+	$(oSelf.ele).find('.element .dele').on({
+		'click':function(){
+			$(oSelf.ele).css('display','none').siblings().css('display','none');
+			$('<div class="nothing">还没有东西哦，赶紧<span>购买</span></div>').appendTo($(oSelf.ele).parents('.main_in'));
+			$('body,html').find('.main_in .nothing span').on({
+				'click':function(){
+					window.open('../../list/html/list.html','_self');
+				}
+			});
+			//删除cookie
+//			$.cookie('cart',null);
+		}
+	})
 
 }
 
